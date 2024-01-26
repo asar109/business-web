@@ -1,334 +1,314 @@
-@media only screen and (max-width :400px) {
-     header#header{
-          background-image: none;
-     }
-     html{
-          font-size: 7px;
-     }
-     #about {
-          padding: 0rem 0rem;
-          margin-top: -42rem;
-          display: flex;
-          align-items: center;
-          flex-wrap: wrap;
-      }
-      div.about-left-col{
-           display: none;
+@media only screen and (max-width: 400px) {
+  header#header {
+    background-image: none;
+  }
+  .header-content {
+     margin-top: 8rem;
+     max-width: 37rem;
+ }
+  html {
+    font-size: 7px;
+  }
+  .container {
+    margin: 0rem 4rem;
+  }
+  #about {
+    padding: 0rem 4rem;
+    margin-top: -48rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  div.about-left-col {
+    display: none;
+  }
+  .about-right-col {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .text-box {
+    margin: 1rem;
+  }
+  #courses > div > div.courses-left-col > button {
+    padding: 1.5rem;
+  }
+  .courses-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #courses {
+    margin: 0rem auto;
+    padding: 3rem;
+  }
+  .offer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  #offer {
+    margin: 2rem auto;
+  }
+  .social-icons {
+    display: none;
+  }
+  #feature > div.feature-btn > button {
+    padding: 1.5rem;
+  }
+  #offer > div > div.offer-left-col {
+    order: 2;
+  }
+  #offer > div > div.offer-right-col {
+    order: 1;
+  }
+  .contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 8rem 0rem;
+    padding: 1rem 5rem;
+    flex-direction: column;
+  }
+  .form-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin-top: -1rem;
+  }
+  .contact-right-col {
+    margin: 4rem 0rem;
+    flex-basis: 100%;
+  }
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .footer-main-col1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+    padding: 2rem;
+  }
+  .footer-main-col1 div {
+    padding: 0rem;
+  }
+  .footer-main-col2 {
+    display: none;
+  }
+  .common-btn {
+    padding: 8px 16px;
+  }
+}
 
-     }
-     .about-right-col{
-          flex-basis: 100%;
-          text-align: center;
-     }
-     .text-box{
-          margin: 1rem;
-     }
-     #courses > div > div.courses-left-col > button{
-          padding: 1.5rem;
-     }
-     .courses-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: column;
-          padding: 1rem;
-      }
-      #courses {
-          margin: 0rem auto;
-          padding: 3rem;
-      }
-      .offer-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: column;
-          flex-wrap: nowrap;
-      }
-      #offer{
-           margin: 2rem auto;
-      }
-      .social-icons img{
-           width: 3rem;
-      }
-      #feature > div.feature-btn > button{
-           padding: 1.5rem;
-      }
-      #offer > div > div.offer-left-col{
-           order: 2;
-      }
-      #offer > div > div.offer-right-col{
-           order: 1;
-      }
-      .contact-row {
-          display: flex;
-          align-items: center;
-          flex-wrap: nowrap;
-          margin: 8rem 0rem;
-          padding: 1rem 5rem;
-          flex-direction: column;
-      }
-      .form-btn {
-          display: flex;
-          justify-content: space-between;
-          width: 84%;
-          margin-top: -1rem;
-      }
-      .contact-right-col {
-          margin: 4rem 0rem;
-          flex-basis: 100%;
-      }
-      .footer-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: row;
-      }
-      .footer-main-col1 {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-basis: 100%;
-          padding: 2rem;
-      }
-      .footer-main-col1 div {
-          padding: 0rem;
-      }
-      .footer-main-col2 {
+@media (min-width: 401px) and (max-width: 700px) {
+  header#header {
+    background-image: none;
+  }
+  html {
+    font-size: 7.2px;
+  }
+  .header-content {
+    max-width: 71rem;
+    margin-top: 14rem;
+  }
+  #about {
+    padding: 0rem 0rem;
+    margin-top: -42rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  div.about-left-col {
+    display: none;
+  }
+  .about-right-col {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .text-box {
+    margin: 1rem;
+  }
+  #courses > div > div.courses-left-col > button {
+    padding: 1.5rem;
+  }
+  .courses-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #courses {
+    margin: 0rem auto;
+    padding: 3rem;
+  }
+  .offer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  #offer {
+    margin: 2rem auto;
+  }
+  .social-icons img {
+    width: 3rem;
+  }
+  #feature > div.feature-btn > button {
+    padding: 1.5rem;
+  }
+  #offer > div > div.offer-left-col {
+    order: 2;
+  }
+  #offer > div > div.offer-right-col {
+    order: 1;
+  }
+  .contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 8rem 0rem;
+    padding: 1rem 5rem;
+    flex-direction: column;
+  }
+  .form-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin-top: -1rem;
+  }
+  .contact-right-col {
+    margin: 4rem 0rem;
+    flex-basis: 100%;
+  }
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .footer-main-col1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+    padding: 2rem;
+  }
+  .footer-main-col1 div {
+    padding: 0rem;
+  }
+  .footer-main-col2 {
+    display: none;
+  }
+}
 
-          display: none;
-      }
-
-
-
-
-
-
-      }
-
-     
-@media(min-width:401px) and (max-width :700px) {
-     header#header{
-          background-image: none;
-     }
-     html{
-          font-size: 7.2px;
-     }
-     .header-content {
-          max-width: 71rem;
-          margin-top: 14rem;
-      }
-     #about {
-          padding: 0rem 0rem;
-          margin-top: -42rem;
-          display: flex;
-          align-items: center;
-          flex-wrap: wrap;
-      }
-      div.about-left-col{
-           display: none;
-
-     }
-     .about-right-col{
-          flex-basis: 100%;
-          text-align: center;
-     }
-     .text-box{
-          margin: 1rem;
-     }
-     #courses > div > div.courses-left-col > button{
-          padding: 1.5rem;
-     }
-     .courses-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: column;
-          padding: 1rem;
-      }
-      #courses {
-          margin: 0rem auto;
-          padding: 3rem;
-      }
-      .offer-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: column;
-          flex-wrap: nowrap;
-      }
-      #offer{
-           margin: 2rem auto;
-      }
-      .social-icons img{
-           width: 3rem;
-      }
-      #feature > div.feature-btn > button{
-           padding: 1.5rem;
-      }
-      #offer > div > div.offer-left-col{
-           order: 2;
-      }
-      #offer > div > div.offer-right-col{
-           order: 1;
-      }
-      .contact-row {
-          display: flex;
-          align-items: center;
-          flex-wrap: nowrap;
-          margin: 8rem 0rem;
-          padding: 1rem 5rem;
-          flex-direction: column;
-      }
-      .form-btn {
-          display: flex;
-          justify-content: space-between;
-          width: 84%;
-          margin-top: -1rem;
-      }
-      .contact-right-col {
-          margin: 4rem 0rem;
-          flex-basis: 100%;
-      }
-      .footer-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: row;
-      }
-      .footer-main-col1 {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-basis: 100%;
-          padding: 2rem;
-      }
-      .footer-main-col1 div {
-          padding: 0rem;
-      }
-      .footer-main-col2 {
-
-          display: none;
-      }
-
-
-
-
-
-
-      }
-     
-
-
-
-
-
-@media(min-width:701px) and (max-width :1000px) {
-     header#header{
-          background-image: none;
-     }
-     html{
-          font-size: 7.2px;
-     }
-     .header-content {
-          max-width: 71rem;
-          margin-top: 14rem;
-      }
-     #about {
-          padding: 0rem 0rem;
-          margin-top: -42rem;
-          display: flex;
-          align-items: center;
-          flex-wrap: wrap;
-      }
-      div.about-left-col{
-           display: none;
-
-     }
-     .about-right-col{
-          flex-basis: 100%;
-          text-align: center;
-     }
-     .text-box{
-          margin: 1rem;
-     }
-     #courses > div > div.courses-left-col > button{
-          padding: 1.5rem;
-     }
-     .courses-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: column;
-          padding: 1rem;
-      }
-      #courses {
-          margin: 0rem auto;
-          padding: 3rem;
-      }
-      .offer-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: column;
-          flex-wrap: nowrap;
-      }
-      #offer{
-           margin: 2rem auto;
-      }
-      .social-icons img{
-           width: 3rem;
-      }
-      #feature > div.feature-btn > button{
-           padding: 1.5rem;
-      }
-      #offer > div > div.offer-left-col{
-           order: 2;
-      }
-      #offer > div > div.offer-right-col{
-           order: 1;
-      }
-      .contact-row {
-          display: flex;
-          align-items: center;
-          flex-wrap: nowrap;
-          margin: 8rem 0rem;
-          padding: 1rem 5rem;
-          flex-direction: column;
-      }
-      .form-btn {
-          display: flex;
-          justify-content: space-between;
-          width: 84%;
-          margin-top: -1rem;
-      }
-      .contact-right-col {
-          margin: 4rem 0rem;
-          flex-basis: 100%;
-      }
-      .footer-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: row;
-      }
-      .footer-main-col1 {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-basis: 100%;
-          padding: 2rem;
-      }
-      .footer-main-col1 div {
-          padding: 0rem;
-      }
-      .footer-main-col2 {
-
-          display: none;
-      }
-
-
-
-
-
-
-      }
+@media (min-width: 701px) and (max-width: 1000px) {
+  header#header {
+    background-image: none;
+  }
+  html {
+    font-size: 7.2px;
+  }
+  .header-content {
+    max-width: 71rem;
+    margin-top: 14rem;
+  }
+  #about {
+    padding: 0rem 0rem;
+    margin-top: -42rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  div.about-left-col {
+    display: none;
+  }
+  .about-right-col {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .text-box {
+    margin: 1rem;
+  }
+  #courses > div > div.courses-left-col > button {
+    padding: 1.5rem;
+  }
+  .courses-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #courses {
+    margin: 0rem auto;
+    padding: 3rem;
+  }
+  .offer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  #offer {
+    margin: 2rem auto;
+  }
+  .social-icons img {
+    width: 3rem;
+  }
+  #feature > div.feature-btn > button {
+    padding: 1.5rem;
+  }
+  #offer > div > div.offer-left-col {
+    order: 2;
+  }
+  #offer > div > div.offer-right-col {
+    order: 1;
+  }
+  .contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 8rem 0rem;
+    padding: 1rem 5rem;
+    flex-direction: column;
+  }
+  .form-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin-top: -1rem;
+  }
+  .contact-right-col {
+    margin: 4rem 0rem;
+    flex-basis: 100%;
+  }
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .footer-main-col1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+    padding: 2rem;
+  }
+  .footer-main-col1 div {
+    padding: 0rem;
+  }
+  .footer-main-col2 {
+    display: none;
+  }
+}
